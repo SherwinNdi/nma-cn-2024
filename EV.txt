@@ -1,0 +1,22 @@
+
+Each EV file is a text file containing three columns of numbers. 
+Column 1: Onset Time
+•	This column indicates when an event or block starts, measured in seconds from the beginning of the fMRI run.
+•	For example, if you see "10" in this column, it means the event started 10 seconds after the run began.
+Column 2: Duration
+•	This column shows how long the event or block lasts, also in seconds.
+•	For block designs (like win.txt or loss.txt), this might be longer (e.g., 15 or 30 seconds).
+•	For event-related designs (like win_event.txt, loss_event.txt, or neutral.txt), this is typically shorter, often matching the stimulus presentation time (e.g., 1 or 2 seconds).
+Column 3: Amplitude
+•	This column is usually set to 1 for task-based fMRI, indicating that the event occurred.
+•	In some cases, it might vary if you're modeling different intensities of stimuli, but for most standard analyses in the Gambling task, it will be 1.
+Example interpretations:
+1.	In win.txt or loss.txt (block design): 30 15 1 This means: 
+o	A block started 30 seconds into the run
+o	The block lasted for 15 seconds
+o	Standard amplitude of 1
+2.	In win_event.txt, loss_event.txt, or neutral.txt (event-related): 45.5 1.5 1 This means: 
+o	An individual trial started 45.5 seconds into the run
+o	The trial lasted for 1.5 seconds
+o	Standard amplitude of 1
+
