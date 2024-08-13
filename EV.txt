@@ -1,5 +1,5 @@
 
-Each EV file is a text file containing three columns of numbers. 
+Each EV file is a text file containing three columns of numbers.. 
 Column 1: Onset Time
 •	This column indicates when an event or block starts, measured in seconds from the beginning of the fMRI run.
 •	For example, if you see "10" in this column, it means the event started 10 seconds after the run began.
