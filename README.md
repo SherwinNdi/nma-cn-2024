@@ -45,7 +45,7 @@ The study concludes that the processing of neutral stimuli is highly context-dep
 
 **Team Members**<br>
 Sherwin Nedaei Janbesaraei<br>
-Roya Rahimpour<br>
+Roya Rahimpourjamab<br>
 Zahra Shojaei<br>
 Hadi Mahdavian<br>
 Negar Valipour<br>
